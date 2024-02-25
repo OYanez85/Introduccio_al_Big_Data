@@ -241,3 +241,34 @@ Resum d’idees clau del mòdul.
 - Test sobre els continguts del curs
 10 preguntes tipus test sobre els conceptes treballats en el curs.
 
+# Idees clau: Visualització de dades: programes i metodologies
+Una vegada finalitzat el mòdul, passarem a repassar els punts més importants que hem de tenir en compte.
+ 
+
+- Visualització de dades
+
+Aquestes eines ens permeten oferir una capa de visualització a les dades emmagatzemades en el nostre data warehouse. Es caracteritzen per la seva facilitat d’ús, per la seva integració amb qualsevol tipus de base de dades o sistema de fitxers distribuïts, per la seva capacitat de representació de processament batch o temps real i per la gran varietat de recursos de què disposa a l’hora de generar quadres de comandament complexos.
+
+Són fonamentals per a qualsevol negoci, perquè ajuden en la presa de decisions, a proporcionar l’estat actual de la informació corporativa, en la detecció de possibles amenaces o incidències i en l’anticipació de resultats. A més, aquests serveis estan evolucionant ràpidament per poder oferir solucions analítiques integrades amb l’eina, de manera que  puguem mostrar alternatives de data discovery i prediccions automàtiques en temps de visualització.
+
+És important recordar els cinc factors que s’han de tenir en compte a l’hora de dissenyar una visualització de dades: a quin públic està dirigida, el tipus de contingut que es vol oferir, el seu context, el dinamisme dels gràfics i el propòsit o missatge que es vol presentar.
+
+D’altra banda, entre les eines de visualització més importants del mercat trobem: Tableau, QlikView, Power BI, Kibana i Grafana. Totes tenen els seus punts forts i haurem de triar-les acuradament en funció del nostre pressupost i necessitats.
+ 
+
+- Casos d’ús
+
+D’entre tots els escenaris més típics dins de l’ecosistema big data, en destaquem quatre: visió 360º de la clientela, prevenció de frau, optimització de preus i motors de recomanació. Tots es basen en arquitectures big data distribuïdes i fan ús dels frameworks que s’han vist en el curs.
+
+És fonamental tenir en compte la repercussió que estan tenint aquest tipus de tecnologies en el nostre dia a dia. Gràcies a l’ús de dispositius electrònics, plataformes al núvol, xarxes socials, adquisició de productes en comerços, utilització d’eines financeres, etcètera, generem una quantitat de dades que són utilitzades per empreses grans o proveïdores de serveis en les seves analítiques de dades.
+ 
+
+- Tendències
+
+Per acabar, hem vist quina serà l’evolució natural de big data en els pròxims anys. S’espera que totes les eines que s’han mostrat al llarg del curs segueixin el seu desenvolupament cap a un millor rendiment i una millor economia de recursos. Algun dels punts més importants del roadmap seria el disseny d’arquitectures en núvols híbrids, la focalització en processament de fluxos streaming, la millora i creixement dels algorismes d’aprenentatge automàtic i el progrés en la visualització de dades.
+
+ 
+
+Si vols descarregar-te el contingut del curs en català, fes clic aquí.
+
+Si quieres descargarte el contenido del curso en castellano, haz clic aquí.
