@@ -144,3 +144,18 @@ Introducció a les diferents solucions informàtiques per a l’emmagatzematge i
 - Resum d’idees clau
 Resum dels conceptes principals.
 
+# Idees clau: Infraestructura pel Big Data
+
+Vegem quins conceptes hem après en aquest segon mòdul.
+
+Hem repassat l’evolució històrica del big data i com ha anat integrant-se cada vegada més en el dia a dia. Google pot presumir de ser la companyia que té la xarxa distribuïda més àmplia del món, a part de ser la pionera en introduir els conceptes d’arquitectures distribuïdes. Això va suposar un abans i un després que ajuda a les companyies actualment a emmagatzemar i processar les dades d’una manera ràpida, escalable i barata.
+
+S’ha de tenir en compte com està estructurada una arquitectura big data. Per a això, és interessant que tinguem clar quin és el flux natural de la dada. En primer lloc, l’origen de dades generarà els registres necessaris, ja sigui en format de text, o en base de dades o un sistema de cues, per després ser adquirit i emmagatzemat en el nostre repositori de dades. Posteriorment, es processarà la informació, netejant registres buits, nuls o duplicats, validant formats i aplicant transformacions i models que s’encarreguin d’oferir valor al negoci. El resultat de tot aquest procés tractarà de donar resposta als indicadors de rendiment o KPI plantejats, així com oferir una visió de l’estat actual de la informació, tendències i prediccions.
+
+Veiem que en tot moment estan presents les 4 V del big data: volum, velocitat, varietat i veracitat.
+
+Per poder dur a terme tot el procés d’emmagatzematge, transformació i visualització de la informació cal donar-li els mitjans sobre els quals operar. Hem vist com màquines individuals ja no poden suportar el volum de dades que es genera actualment, per la qual cosa és necessari treballar amb clúster de servidors. Un clúster no és res més que un conjunt de màquines que treballen en conjunt per oferir una capacitat de reposició i processament major, a través de la distribució de la informació i treballs paral·lels. Aquest tipus d’arquitectures estan pensades per ser escalables horitzontalment, és a dir, podem afegir més màquines al nostre clúster de manera gairebé automàtica. També proporcionen característiques d’alta disponibilitat, perquè estan preparades per continuar funcionant, encara que algun dels nodes del clúster quedi fora de funcionament temporalment.
+
+Finalment, hem repassat quines possibilitats d’emmagatzematge de la informació existeixen en funció de la seva categoria, estructura i funcionalitat. Triar el sistema de magatzematge és una de les decisions més importants que s’han de realitzar sobre el disseny d’un sistema de big data, per la qual cosa és fonamental saber les diferències entre un sistema de fitxers distribuïts i bases de dades relacionals i no relacionals.
+
+
