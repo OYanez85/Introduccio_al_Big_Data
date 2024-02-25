@@ -158,4 +158,23 @@ Per poder dur a terme tot el procés d’emmagatzematge, transformació i visual
 
 Finalment, hem repassat quines possibilitats d’emmagatzematge de la informació existeixen en funció de la seva categoria, estructura i funcionalitat. Triar el sistema de magatzematge és una de les decisions més importants que s’han de realitzar sobre el disseny d’un sistema de big data, per la qual cosa és fonamental saber les diferències entre un sistema de fitxers distribuïts i bases de dades relacionals i no relacionals.
 
+# Frameworks
 
+Al llarg d’aquest mòdul veurem un dels tipus de serveis més importants en big data: els frameworks. Aprendrem què són, com estan formats, en quin llenguatge es programen, quines funcionalitats desenvolupen i sota quines circumstàncies exploten el seu potencial.
+
+És important que ens familiaritzem amb aquest tipus de conceptes i que posem el focus en com funcionen i quants tipus de frameworks hi ha, més que aprendre l’especialització d’un en concret. Això es deu al fet que hi ha infinitat d’alternatives open-source disponibles per dur a terme la nostra aplicació i totes estan en contínua evolució, per la qual cosa és probable que les solucions ofertes avui siguin substituïdes demà per d’altres de més modernes i amb millor rendiment. Per aquesta raó, al llarg del mòdul es presentarà de manera clara i concisa les particularitats dels frameworks en funció de la teva tipologia, amb la finalitat que puguem entendre quin és el seu funcionament, independentment del seu nom.
+
+Es posarà l’accent en els principals frameworks d’emmagatzematge i processament distribuïts que existeixen ara mateix al mercat: Hadoop, Spark i Storm. Amb ells, serem capaços de complir les bases de les 4 V del big data fàcilment, perquè cadascun ofereix un conjunt d’eines molt accessible que ens abstreuen d’arquitectura i funcions de baix nivell, podent centrar-nos en el nucli de la nostra aplicació i donar valor a la informació del nostre sistema.
+
+## Estructura del mòdul:
+
+- Què és un framework?
+Explicació introductòria de què són i com funcionen. Coneixerem què ens aporten a la nostra aplicació, de quines parts estan compostos i com es classifiquen.
+- Principals frameworks utilitzats
+Comparació completa entre els frameworks més utilitzats: Hadoop, Storm i Spark. Aprendrem a quins escenaris s’adapta millor cadascun d’ells, quins són els seus forts i les seves característiques principals.
+- Exemples d’utilització de framework.
+Presentació d’un cas pràctic real de la utilització de Hadoop i Spark. Es mostrarà una arquitectura big data, de manera que puguem tenir clar com es diregeixen les dades de diverses fonts de dades, com es netegen i transformen, i com s’analitzen a través dels diferents frameworks de processament.
+- Exercici per repassar l’après en el mòdul
+En aquest exercici, s’haurà de decidir quin framework és el més adequat per a cadascun dels casos d’ús que es mostren. Es posaran en pràctica els coneixements adquirits al mòdul.
+- Resum d’idees clau del mòdul
+Es realitzarà un petit resum de les característiques principals, l’arquitectura i els objectius dels frameworks que s’han estudiat en el curs.
