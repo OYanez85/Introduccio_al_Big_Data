@@ -178,3 +178,66 @@ Presentació d’un cas pràctic real de la utilització de Hadoop i Spark. Es m
 En aquest exercici, s’haurà de decidir quin framework és el més adequat per a cadascun dels casos d’ús que es mostren. Es posaran en pràctica els coneixements adquirits al mòdul.
 - Resum d’idees clau del mòdul
 Es realitzarà un petit resum de les característiques principals, l’arquitectura i els objectius dels frameworks que s’han estudiat en el curs.
+
+## Exercici
+
+- Escenari A.
+Una empresa líder de recursos humans té com a principal objectiu la contractació de persones expertes del sector tecnològic per a grans clients i clientes. Per a això, recapta informació de manera automàtica de xarxes socials, blogs, revistes científiques digitals i pàgines genèriques de divulgació informàtica. Això es reflecteix en uns orígens de dades mixtos, entre fonts en temps real (xarxes socials) i planificades (webs).
+Per completar els perfils dels i les candidates a la base de dades corporativa, cal utilitzar un únic framework de processament que sigui capaç d’extreure la informació dels orígens establerts. Com a funcionalitat addicional, aquest framework ha de participar en l’aplicació d’algoritmes predictius que ajudin a identificar aquelles persones que els aportaran més beneficis, així com els perfils amb més risc de desvinculació de la companyia a curt termini.
+
+SOL.: Spark. Sí, és Spark. És l’únic framework de processament capaç de recaptar i transformar informació en temps real i batch, i l’únic en poder aplicar llibreries de machine learning i analítica avançada
+
+- Escenari B.
+Un comerç online amb un volum de facturació gran, necessita la construcció d’un data warehouse per poder emmagatzemar, de manera ordenada, gran quantitat d’informació. Aquestes dades es divideixen en l'inventariat de productes, la cartera de clientela, les empreses proveïdores, les comandes, les factures i el trànsit web.Perquè es puguin complir els requisits del seu sistema, cal construir un sistema de fitxers distribuïts, que permeti adquirir totes les dades de manera batch (no es requereix temps real) i que també ofereixi una capa de processament potent per poder netejar les dades, eliminar els duplicats existents en els orígens i construir un model relacional que ajudi a ordenar la informació en una base de dades.
+
+SOL.: Hadoop. Sí, és Hadoop. És l’únic framework que ofereix la capacitat de desplegar un sistema de fitxers distribuïts. Amb Hadoop i les tasques de MapReduce, es podrien abastar les tasques de processament de la informació.
+
+- Escenari 3.
+Una petita organització enfocada a un broker financer s’encarrega d’executar operacions de compra i venda d’instruments financers als seus clients i clientes. El seu principal atractiu és l’agilitat amb la qual executa i actualitza les transaccions, permetent a les persones usuàries aconseguir una oportunitat en borsa o invertir en un fons d’inversió de manera instantània. La pàgina web representa el preu actual de tots els valors de la borsa i el seu sistema ha d’estar capacitat per dur a terme totes les operacions de compravenda amb una latència molt baixa. No requereix processament planificat, totes les seves tasques són en temps real i s’ha de prioritzar aquesta funcionalitat en la mesura del possible.
+
+SOL.: Storm. Sí, és Storm. Com que tot el processament és en temps real, aquest framework és el més capacitat per oferir un processament streaming amb una latència molt baixa.
+
+## Idees clau: Frameworks
+Una vegada finalitzat el mòdul, és important que repassem els punts més importants.
+
+Hem definit un framework com un conjunt d’eines i estàndards que ajuden a l’enginyeria de dades a dur a terme tasques amb molta més rapidesa i de manera òptima. Implementa metodologies i bones pràctiques per evitar que es cometin errors a l’hora de crear vincles recursius, accessos recurrents a la informació o, en general, una gestió amb un mal rendiment de les estructures de dades distribuïdes.
+
+Un dels aspectes més importants d’un framework és la infraestructura que proveeix al nostre sistema. Amb una configuració adequada, el framework s’encarrega de dividir, distribuir i replicar els paquets al clúster, despreocupant-nos de tota la capa de baix nivell del sistema. Aquests automatismes estalvien molts costos a les empreses, perquè la instal·lació d’un framework és ràpida, l’ús és senzill i el rendiment és òptim.
+
+S’ha vist com Hadoop és un dels frameworks més complets, ja que disposa de quatre capes. La d’emmagatzematge està basada en HDFS. El gestor de recursos, clau per a l’orquestració de tasques entre mestres i esclaus, corresponent a YARN. La fase de processament s’associa amb operacions de MapReduce. I, finalment, es tenen totes les eines de suport al desenvolupament de les aplicacions i a la interconnexió de serveis de l’ecosistema de Hadoop.
+
+A més de Hadoop, hem estudiat altres frameworks de processament com:
+Spark (processament streaming i híbrid): a més de tenir un component molt fort en el processament streaming, és molt més complet que Storm, perquè disposa d’eines d’analítica avançada, aplicació de models de machine learning i representació de grafs.
+Storm (principalment per a processament en temps real): Apache Storm és un framework exclusiu de tractament d’streams, parcel·la en la qual supera a Spark.
+ 
+Finalment, hem introduït un exemple on es va representar una arquitectura completa d’un sistema de big data clàssic, amb les capes d’adquisició, emmagatzematge, processament i visualització de la informació.
+
+Abans de tancar el mòdul, s’ha de destacar una particularitat dels frameworks, la seva modularitat. Pot ser que el dia de demà siguin uns altres els que substitueixin els que s’han estudiat en aquest mòdul, però tots solen estar preparats per oferir una compatibilitat suficient perquè la migració entre tecnologies no sigui massa costosa.
+
+És per això que el coneixement més important a tenir en compte és el de quines necessitats hem de cobrir (sistemes distribuïts, alta disponibilitat, replicació, processament batch, temps real, analítica avançada, etc.) i quins tipus de frameworks existeixen en el mercat que puguin adaptar-se als nostres requisits.
+
+# 4. Visualització de dades: programes i metodologies
+
+En aquest mòdul donarem a conèixer algunes eines de business intelligence (BI) que han estat integrades dins de l’ecosistema big data. Aquestes eines són útils per al negoci en la presa de decisions i en la generació de quadres de comandament, que ajudaran a comprendre l’anàlisi realitzada i la informació de negoci utilitzada en el pla estratègic de l’empresa. Repassarem serveis com Tableau, QlikView, Power BI, Kibana i Grafana.
+
+A continuació, presentarem una sèrie de casos d’ús reals d’un disseny big data. Són escenaris que s’apliquen en el nostre dia a dia i que ens ajuden a automatitzar tasques, recomanar-nos continguts personalitzats, a detectar fraus o a optimitzar els preus. Això ens ajudarà a comprendre la importància d’aquesta tecnologia i l’impacte que està tenint en la nostra societat.
+
+Finalment, revisarem quines són les tendències de les eines de big data en els pròxims anys. Respondrem a preguntes com “quina serà l’evolució de les plataformes cloud?”, “quin tipus de processament té un major recorregut?”, “sobre quina analítica es focalitzaran els esforços?” o “quina fase del flux de la dada serà la més reforçada?”.
+
+Finalitzarem el mòdul amb un breu test sobre els continguts que s’han vist en el curs.
+
+
+Estructura del mòdul:
+- Visualització de dades
+Importància i paper que juga en big data la visualització de dades.
+- Metodologies i programes
+Diferents metodologies: els seus usos i avantatges. Els principals programes, les metodologies que utilitza cadascun i les seves principals característiques: - - -Tableau, QlikView, Power BI, Kibana i Grafana.
+- Casos d’ús de big data
+Exemples reals de l’ús de big data.
+- Tendències
+Tendències en l’ús de big data en els pròxims anys.
+- Resum d’idees clau
+Resum d’idees clau del mòdul.
+- Test sobre els continguts del curs
+10 preguntes tipus test sobre els conceptes treballats en el curs.
+
