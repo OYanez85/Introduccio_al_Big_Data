@@ -158,7 +158,7 @@ Per poder dur a terme tot el procés d’emmagatzematge, transformació i visual
 
 Finalment, hem repassat quines possibilitats d’emmagatzematge de la informació existeixen en funció de la seva categoria, estructura i funcionalitat. Triar el sistema de magatzematge és una de les decisions més importants que s’han de realitzar sobre el disseny d’un sistema de big data, per la qual cosa és fonamental saber les diferències entre un sistema de fitxers distribuïts i bases de dades relacionals i no relacionals.
 
-# Frameworks
+# 3. Frameworks
 
 Al llarg d’aquest mòdul veurem un dels tipus de serveis més importants en big data: els frameworks. Aprendrem què són, com estan formats, en quin llenguatge es programen, quines funcionalitats desenvolupen i sota quines circumstàncies exploten el seu potencial.
 
