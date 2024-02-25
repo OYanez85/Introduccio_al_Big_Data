@@ -107,3 +107,40 @@ Es descriuran conceptes relacionats amb l’analítica de dades i la intel·lig�
 Repassarem els conceptes vistos en el primer mòdul del curs.
 - Exercici
 Realitzarem un cas pràctic sobre dades reals d’empreses, per poder aplicar els conceptes estudiats.
+
+# Idees clau: Introducció al Big Data
+
+Durant aquest primer mòdul del curs, hem fet els nostres primers passos en el món del big data, hem après què és i com funciona, oferint diferents perspectives de com n’és d’útil aquesta nova tecnologia per a empreses de perfils tan diferents com les tèxtils o plataformes streaming.
+
+Al seu torn, s’ha mostrat quins tipus de dades existeixen en funció de la seva estructura (estructurades, no estructurades o semiestructurades) i origen. D’aquesta manera, podem fer-nos una idea de quanta informació es genera diàriament, tant per a persones particulars a través dels seus dispositius mòbils, com per altres elements d’ús habitual com un caixer, una comanda online o la targeta d’accés a l’empresa.
+
+S’ha introduït el concepte dels quatre pilars del big data, les 4 V sobre les quals està construït cada sistema (volum, varietat, velocitat i veracitat). Cal tenir clar que una arquitectura big data s’encarrega “únicament” de processar molta informació de manera molt ràpida, de diferents fonts simultàniament i oferint una qualitat i consistència adequades.
+
+S’ha ofert una visió global sobre les bases de dades utilitzades per aquests sistemes, de quins tipus principals existeixen (estàtiques i dinàmiques), com es classifiquen en funció de la seva organització (relacionals i no relacionals) i en funció del seu contingut (transaccionals, documentals, clau/valor, columnars i gràfiques).
+
+Finalment, apart d’introduir què és la mineria de dades i com s’integra amb el big data, s’han descrit els diferents tipus d’anàlisis d’informació que es poden dur a terme (prescriptiva, predictiva, diagnòstica i descriptiva), les diferents fases per les quals ha de passar una dada en el nostre sistema i per què és tan important que un negoci dediqui recursos i esforços a realitzar aquestes investigacions sobre les seves dades.
+
+# Infraestructura pel Big Data
+
+
+Al llarg d’aquest segon mòdul del curs podrem aprofundir en l’evolució que ha tingut el big data des dels seus orígens i com ha aconseguit cobrir una necessitat que s’anava augmentant en els últims anys. Cada vegada generem més informació i necessitem sistemes escalables que estiguin preparats, ara i a llarg termini, per suportar aquest creixement.
+
+Al seu torn, estudiarem què és un clúster i de quines parts es compon. És essencial que comencem a consolidar aquests conceptes, perquè són la base de tots els dissenys i arquitectures de big data. Comprovarem com és un flux real de la dada, és a dir, des que aquest es genera en origen, com s’emmagatzema i es transforma en el nostre sistema i finalment com s’agrega per ser visualitzat en un informe o en una eina de reporting.
+
+Finalment, veurem detalladament quines són les formes més comunes de gestionar i emmagatzemar la informació al clúster, de manera que siguem autònoms a l’hora de triar un tipus de base de dades o un altre en funció de les nostres necessitats. Avui dia, hi ha moltes alternatives i tipus de sistemes compatibles, per la qual cosa és important que, a part de tenir un coneixement base sobre les diferents categories d’emmagatzematge que existeixen, puguem trobar un compromís entre rendiment, escalabilitat, disponibilitat i accessibilitat del nostre disseny.
+
+Això ens permetrà tenir una visió global de per què es necessita el big data, com es dissenya un sistema d’aquestes característiques, quines parts té i com funciona. És només el començament per entendre como el big data ofereix autonomia, valor, intel·ligència i reducció de costos al negoci.
+
+
+En el mòdul 2 tractarem:
+- La tecnologia i el big data
+Es donaran a conèixer els començaments del big data i el paper que suposa per a les tecnologies actuals, que són bàsiques per comprendre les següents parts del mòdul.
+- Característiques de les plataformes de big data
+Es presentaran les principals característiques de disseny i arquitectura. Es descriurà cadascuna de les seves capes, apreciant el flux de les dades des que es genera fins que s’explota.
+- Infraestructura de bases de dades: clústers
+De quins elements es formen i en quines fases es pot dividir un clúster.
+- Emmagatzematge i gestió de dades
+Introducció a les diferents solucions informàtiques per a l’emmagatzematge i la gestió de dades i els seus principals reptes.
+- Resum d’idees clau
+Resum dels conceptes principals.
+
